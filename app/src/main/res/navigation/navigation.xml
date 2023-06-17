@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/kalkulatorFragment">
+
+    <fragment
+        android:id="@+id/kalkulatorFragment"
+        android:name="org.d3if0057.calculator.ui.kalkulator.KalkulatorFragment"
+        android:label="Kalkulator"
+        tools:layout="@layout/fragment_kalkulator" >
+        <action
+            android:id="@+id/action_kalkulatorFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_kalkulatorFragment_to_historiFragment"
+            app:destination="@id/historiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="org.d3if0057.calculator.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about"/>
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="org.d3if0057.calculator.ui.histori.HistoriFragment"
+        android:label="Histori"
+        tools:layout="@layout/fragment_histori"/>
+</navigation>

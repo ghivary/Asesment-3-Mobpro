@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="clear">CL</string>
+    <string name="left">(</string>
+    <string name="right">)</string>
+    <string name="division">÷</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="multiply">×</string>
+    <string name="subtraction">-</string>
+    <string name="addition">+</string>
+    <string name="zero">0</string>
+    <string name="dot">.</string>
+    <string name="equals">=</string>
+    <string name="mode">"Night "</string>
+    <string name="nothing"> </string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Aplikasi ini dibuat untuk memenuhi tugas Asessment 2 pada matkul Mobile Programing 1\n\nTemukan kodenya di https://drive.google.com/drive/folders/1B-8pmyamW2Ej8ENSLjEbGN_-GhWKzp55?usp=share_link \n\nCopyright © 2021 Muhammad Al Ghivary.\nAll rights reserved.</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="histori">Histori</string>
+    <string name="hasil_x">BMI: %1$.2f - %2$s</string>
+    <string name="data_x">BB: %1$.1f - TB: %2$.1f - %3$s</string>
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="konfirmasi_hapus_1">Hapus histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name="switch_layout">Ubah tampilan</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">Temukan kodenya di https://drive.google.com/drive/folders/1B-8pmyamW2Ej8ENSLjEbGN_-GhWKzp55?usp=share_link</string>
+    <string name="koneksi_error">Koneksi error</string>
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Update data histori</string>
+    <string name="notif_title">New History</string>
+    <string name="notif_text">Check it now!</string>
+</resources>
